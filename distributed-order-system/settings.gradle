@@ -1,0 +1,11 @@
+rootProject.name = 'distributed-order-system'
+
+include(
+        'platform:common-lib',
+        'platform:observability-lib',
+        'platform:security-lib',
+
+        'services:order-service',
+        'services:api-gateway',
+        'services:auth-service'
+)
